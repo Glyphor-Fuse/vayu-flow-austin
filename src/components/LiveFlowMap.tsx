@@ -60,7 +60,7 @@ const LiveFlowMap = () => {
               onClick={() => setView('map')}
               className={`flex items-center gap-2 px-6 py-2 rounded-full text-sm font-medium transition-all ${view === 'map' ? 'bg-primary text-primary-foreground shadow-md' : 'text-muted-foreground hover:text-primary'}`}
             >
-              <MapIcon className="w-4 h-4" /> Map
+              <Map className="w-4 h-4" /> Map
             </button>
           </div>
         </div>
